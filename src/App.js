@@ -24,7 +24,6 @@ function App() {
     }
   };
 
-  console.log(data);
   const graphData = {
     datasets: [
       {
