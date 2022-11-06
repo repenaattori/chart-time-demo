@@ -21,7 +21,7 @@ function App() {
       point:{
           radius: 0
       }
-  }
+    }
   };
 
   console.log(data);
