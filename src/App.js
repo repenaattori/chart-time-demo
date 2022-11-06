@@ -53,8 +53,8 @@ function App() {
   }
 
   return (
-     <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
-            <div><Line options={options} data={graphData} width={'1000px'} height={'500px'}/></div>
+     <div style={{ width: '50%'}}>
+            <Line options={options} data={graphData}/>
         </div>
   );
 }
